@@ -1,7 +1,7 @@
 import React, { FC, useEffect } from 'react';
 import { Dimensions, Image, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { User } from '../../types';
-s;
+
 const UserDetails: FC<{ navigation: any; route: any }> = ({ navigation, route }) => {
   const user = route.params.user as User;
   const name = user.firstName + ' ' + user.lastName;
